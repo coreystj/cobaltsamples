@@ -1,0 +1,14 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPoints": ["./src/Cobalt.Lib/**/*.ts"],
+    "out": "docs",
+    "plugin": ["typedoc-material-theme"],
+    "themeColor": "#ffffff",
+    "name":"Cobalt Scripting SDK",
+	"readme":"README.md",
+    "excludePrivate": true,
+    "excludeProtected": true,
+    "excludeInternal" : true,
+    "excludeReferences" : true,
+    "includeVersion": true
+}

@@ -1,0 +1,23 @@
+{
+  "name": "cobaltengine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "combine": "\"CobraCompiler\\Jint.CLI.exe\" src ..\\Assets\\app.txt",
+    "build": "npm run compile && npm run combine",
+    "document": "npx typedoc --options typedoc.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@starbeam-dev/typedoc-theme": "^1.0.1",
+    "typedoc": "^0.25.7",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "typedoc-material-theme": "^1.0.2"
+  }
+}
